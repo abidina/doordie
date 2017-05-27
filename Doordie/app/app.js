@@ -3,13 +3,18 @@
 app.config(["$routeProvider", function ($routeProvider) {
     $routeProvider.when("/",
         {
-            templateUrl: "app/login.html",
-            controller: "loginController"
+            templateUrl: "app/partials/login.html",
+            controller: "LoginController"
         })
         .when("/home",
         {
             templateUrl: "app/home.html",
-            controller: "homeController"
+            controller: "HomeController"
+        })
+        .when("/signup",
+        {
+            templateUrl: "app/partials/signup.html",
+            controller: "SignUpController"
         });
 
 }]);

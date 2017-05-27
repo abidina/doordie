@@ -7,5 +7,6 @@ namespace Doordie.Models
 {
     public class User
     {
+
     }
 }
